@@ -1,0 +1,132 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #64432f;
+}
+
+section{
+  border: 1px solid black;
+  background-color: #815439;
+  width: 100%;
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  overflow: auto;
+  color: black;
+  padding: 10px;
+  text-align: justify;
+  border: 2px solid #3F0C1F;
+  margin-bottom: 5px;
+}
+
+h2{
+   text-align: center;
+ }
+/** HEADER **/
+#header-nav {
+  background-color: #a2d333;
+  border-radius: 0;
+  border: 0;
+  max-height: 70px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: #64432f;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: -10px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 50px #a2d333;
+  border: 2px solid #3F0C1F;
+  margin-top: 60px;
+  max-height: 30px;
+  color: black;
+  font-weight: bold;
+  text-decoration-color: #00000;
+}
+
+
+/* END HOME PAGE */
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .container .jumbotron {
+    background-color: #64432f;
+          }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  /* Home Page */
+  .container .jumbotron {
+     background-color: #64432f;
+   }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    position: relative;
+    padding-top: 30px;
+    height: 80px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    background-color: #A2D333;
+      }
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    position: relative;
+    margin-top: 100px;
+    padding: 0;
+    background-color: #64432f;
+    width: 100%;
+    float: right;
+    
+  }
+  #nav-list a {
+  color: #64432f;
+  text-align: center;
+  font-weight: bold;
+
+}
+  #nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -70px;
+}
+/* Home Page End */
+}
+
+
+
