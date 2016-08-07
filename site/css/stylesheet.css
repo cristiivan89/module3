@@ -50,24 +50,14 @@ h2{
 }
 /* END HEADER */
 
-/* HOME PAGE */
-.container .jumbotron {
-  box-shadow: 0 0 50px #a2d333;
-  border: 2px solid #3F0C1F;
-  margin-top: 60px;
-  max-height: 30px;
+h1{
   color: black;
   font-weight: bold;
-  text-decoration-color: #00000;
+  margin-top: 70px;
 }
-
-
-/* END HOME PAGE */
-
-
 /********** Large devices only **********/
 @media (min-width: 992px) {
-  .container .jumbotron {
+  .container{
     background-color: #64432f;
           }
 }
@@ -76,7 +66,7 @@ h2{
 @media (min-width: 768px) and (max-width: 991px) {
   
   /* Home Page */
-  .container .jumbotron {
+  .container{
      background-color: #64432f;
    }
   /* End Home Page */
@@ -97,8 +87,12 @@ h2{
       }
   /* End Header */
 
+h1{
+  margin-top: 0;
+}
+
   /* Home Page */
-  .container .jumbotron {
+  .container {
     position: relative;
     margin-top: 100px;
     padding: 0;
@@ -111,6 +105,8 @@ h2{
   color: #64432f;
   text-align: center;
   font-weight: bold;
+
+
 
 }
   #nav-list a:hover {
